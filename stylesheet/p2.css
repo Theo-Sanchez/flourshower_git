@@ -1,0 +1,21 @@
+.main_page{
+    margin-left:48px;
+    margin-right:48px;
+}
+.section, .section_reverse, .img_section{
+    width:100%;
+    height:100%;
+}
+
+.section , .section_reverse{
+    display:flex;
+    align-items:center;
+    padding-bottom:71px;
+}
+    .section > *, .section_reverse > *{
+        padding-right:48px;
+    }
+
+.section_reverse{
+    flex-direction:row-reverse;
+}
