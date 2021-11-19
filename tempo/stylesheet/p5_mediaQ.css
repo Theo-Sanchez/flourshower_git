@@ -1,0 +1,35 @@
+
+@media screen and (max-width:500px){
+    .foot1{
+        flex-direction:column;
+        justify-content:start;
+    }
+    .foot1_right{
+        margin-right:48px;
+        height:100%;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:750px){
+    .logo{
+        width:92.08647px;
+        height:25.95726px;
+    }
+    .sending_form div{
+        flex-direction:column;
+        margin-bottom:0;
+        
+    }
+        .sending_form div *{
+            width:calc(100% - 8px); 
+            margin-bottom:16px; 
+        }
+    .subtitle{
+        margin-left:96px;
+        margin-right:96px;
+    }
+    .gmap_shops{
+        flex-direction:column;
+    }
+}
